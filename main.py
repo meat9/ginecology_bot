@@ -34,8 +34,7 @@ from bot.menu_risk import get_last_result, handler_question, start_check_risk
 from log import Logging
 from dbase.library import fix_all_pics
 
-# token="7157390923:AAHxpQcYunVh0znLLVs1Rwf_aLm0fUfaN24"
-token = "5805851327:AAEVV4sVg6X1XmXqRifwm7tVe8yQBxg1Qg0"  # test local
+token = ""
 bot = telebot.TeleBot(token)
 
 
